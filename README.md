@@ -1,6 +1,9 @@
 # circle_bar_chart
 
-A new Flutter project.
+A CircleBar Chart Flutter project.
+![Image description](https://github.com/AMBE1203/circle_chart/blob/master/demo/demo_circle_bart.jpg)
+
+
 
 ## Getting Started
 
