@@ -1,4 +1,4 @@
-import 'package:circle_bar_chart/SectionData.dart';
+import 'package:circle_bar_chart/section_data.dart';
 import 'package:flutter/material.dart';
 
 class Data {

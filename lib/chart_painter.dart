@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 
-import 'package:circle_bar_chart/SectionData.dart';
+import 'package:circle_bar_chart/section_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -191,11 +191,9 @@ class ChartPainter extends CustomPainter {
   }
 
   double _calculateCenterRadius(Size viewSize, double r) {
-    if (!r.isNaN) {
-      return r;
-    }
+   return r;
   }
 
   @override
-  bool shouldRepaint(CustomPainter oldDelegate) => true;
+  bool shouldRepaint(CustomPainter oldDelegate) => false;
 }
